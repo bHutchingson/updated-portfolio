@@ -173,7 +173,7 @@ h3 {
 }
 
 .tidder:hover {
-    background: #483C32;
+    background: #301406;
     opacity: 6;
     transition: all .3s ease-in-out;
     color: #ffe5d0;
@@ -193,7 +193,7 @@ h3 {
 }
 
 .profile-gen:hover {
-    background: #483C32;
+    background: #301406;
     transition: all .3s ease-in-out;
 }
 
@@ -216,6 +216,30 @@ h3 {
     opacity: 1;
 }
 
+.skills-container {
+    width: 80vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-container .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    grid-gap: 20px;
+}
+
+img {
+    height: 5rem;
+}
+
+.skills-container h1 {
+    display: flex;
+    align-self: center;
+}
+
 @media (max-width: 1023px) {
     .grid-container {
         grid-template-columns: repeat(1,1fr);
@@ -223,5 +247,12 @@ h3 {
 
     .tidder, .profile-gen {
         width: 400px;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .skills-container .skills-grid {
+        grid-template-columns: repeat(2,1fr);
     }
 }
