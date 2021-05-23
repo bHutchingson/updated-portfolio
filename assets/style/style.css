@@ -1,6 +1,6 @@
 :root {
-    --main-color: white;
-    --second-color: #41B3A3;
+    --main-color: #0004ff;
+    --second-color: #0a0044;
 }
 
 /*style reset*/
@@ -16,7 +16,7 @@ main {
 }
 
 body {
-    background: linear-gradient(#8d9f89, #db886b, #425752);
+    background-color: #0004ff /* linear-gradient(#8d9f89, #db886b, #425752) */;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,10 +66,14 @@ h3 {
 
 .nav-btn {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 5px;
     margin-left: 10px;
-    border: 2px solid #ffe5d0;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
 }
 
 /*title styling*/
@@ -90,10 +94,12 @@ h3 {
 .title-container p {
     display: flex;
     padding-bottom: 2vh;
+    color: white;
 }
 
 .contact-btn {
-    padding: 5px;
+    color: white;
+    padding: 7px;
     background-color: var(--second-color);
     border-radius: 5%;
     border: 1px solid black;
@@ -101,7 +107,8 @@ h3 {
 }
 
 .contact-btn:hover {
-    opacity: .6;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
 }
 
 .work-container {
@@ -173,7 +180,7 @@ h3 {
 }
 
 .tidder:hover {
-    background: #301406;
+    background: #0a0044;
     opacity: 6;
     transition: all .3s ease-in-out;
     color: #ffe5d0;
@@ -193,7 +200,7 @@ h3 {
 }
 
 .profile-gen:hover {
-    background: #301406;
+    background: #0a0044;
     transition: all .3s ease-in-out;
 }
 
