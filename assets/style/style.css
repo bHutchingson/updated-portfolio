@@ -142,34 +142,10 @@ h3 {
 .grid-container {
     margin-top: 10px;
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
-    /* grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) ); */
     grid-template-columns: repeat(2,1fr);
-    /* grid-template-rows: 1fr 1fr; */
     gap: 1em;
-    /* grid-template-areas:
-    "project-1 project-2"
-    "project-3 project-4"; */
 }
 
-/* .grid-container>* {
-    width: 100%;
-} */
-/* .project-1 { 
-    grid-area: project-1; 
-}
-
-.project-2 { 
-    grid-area: project-2; 
-}
-
-.project-3 { 
-    grid-area: project-3; 
-}
-
-.project-4 { 
-    grid-area: project-4; 
-} */
 
 .tidder {
     background-image: url("../images/tidder-screenshot.png");
