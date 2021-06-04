@@ -160,7 +160,7 @@ h3 {
     background-position: center;
 }
 
-.tidder:hover {
+.tidder:hover, .budget-tracker:hover, .fitness-tracker:hover{
     background: #0a0044;
     opacity: 6;
     transition: all .3s ease-in-out;
@@ -184,6 +184,33 @@ h3 {
     background: #0a0044;
     transition: all .3s ease-in-out;
 }
+
+.budget-tracker {
+    background-image: url("../images/budget-tracker.png");
+    width: 500px;
+    height: 250px;
+    overflow: hidden!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.fitness-tracker {
+  background-image: url("../images/charts.png");
+  width: 500px;
+  height: 250px;
+  overflow: hidden!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% 250px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
 
 .content {
     color: var(--third-color);
